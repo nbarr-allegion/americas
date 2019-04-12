@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:lastReplicated="{Date}2018-07-31T12:45:54.858-05:00"
+    cq:lastReplicatedBy="pooja.katkar"
+    cq:lastReplicationAction="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus,rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <content-default
+                        jcr:description="Policy for editable layout containers for acquisitions"
+                        jcr:lastModified="{Date}2019-01-10T16:43:06.700+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Allegioncorp Default Content Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/fd/af/components/aemform,/libs/dam/cfm/components/contentfragment,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/wcm/foundation/components/responsivegrid,group:Allegion Core - Common]"
+                        policyResourceType="wcm/foundation/components/responsivegrid">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                                    type="Images"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <jcr:content
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="contentFrg-thumbnail"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="contentFrg-thumbnail"
+                                        cq:styleId="1542103082857"
+                                        cq:styleLabel="contentFrg-thumbnail"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </content-default>
+                    <policy_1085667960779709
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Allegioncorp Structure Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Allegioncorp - Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1085667960779709>
+                    <policy_1085667960779710
+                        jcr:lastModified="{Date}2019-01-10T16:06:30.910+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Allegion - Core All Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/fd/af/components/aemform,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/wcm/foundation/components/responsivegrid,group:Allegion Core - Common,group:Allegion Core - Form,/libs/foundation/components/form/start]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1085667960779710>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>

@@ -1,0 +1,14 @@
+Hello, 
+
+The following details were submitted via Allegion.uk Site.
+
+Name : ${name}
+Email ID : ${emailID}
+Mobile Number : ${mobileNo}
+Occupation : ${occupation}
+Company Name  : ${companyName}
+Area of Interest : ${areaOfInt}
+
+Thank You,
+
+Allegion UK Team

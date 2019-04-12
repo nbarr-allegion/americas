@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    cq:lastReplicated="{Date}2018-07-31T12:45:25.635-05:00"
+    cq:lastReplicatedBy="pooja.katkar"
+    cq:lastReplicationAction="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus,rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <config-page/>
+    <page-with-50x50-columns/>
+    <page-with-30x70-columns/>
+    <page-with-70x30-columns/>
+    <generic-template-w-container/>
+    <redirect-page/>
+    <generic-template/>
+</jcr:root>
